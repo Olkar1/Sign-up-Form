@@ -2,22 +2,16 @@ body{
     background-color: rgb(144, 241, 241);
     margin: 0;
 }
-#plants {
-    position: relative;
-    left: 15px;
-    width: auto;
-    height: 100%;
-    object-fit: cover;
-    margin: 0;
-}
 #container{
     display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(14, 14, 14);
 }
 #leftPanel{
     background-image: url(img/background);
     background-size: cover;
-    position: relative;
-    width: 33%;
+    width: 200%;
     height:100vh;
 }
 #leftContainer{
@@ -47,11 +41,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
-    width: 67%;
-    left: 33%;
     height:100vh;
-    background-color:rgb(216, 216, 216);
+    background-color:rgb(238, 238, 238);
 }
 #rightPanel > * {
     width: 100%;

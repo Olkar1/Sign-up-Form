@@ -26,9 +26,38 @@ body{
     justify-content: center;
 }
 #rightPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
     width: 67%;
     left: 33%;
     height:100vh;
     background-color: blue;
 }
+#rightPanel > * {
+    width: 100%;
+    background-color: antiquewhite;
+    margin: 12px;
+}
+.background *{
+    margin: 24px;
+}
+#Form{
+    height: 240px;
+}
+#createAccount{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 4px;
+}
+#createAccount > *{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+
+
